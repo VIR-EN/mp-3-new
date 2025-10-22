@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-// import picture from "../../assets/picture.jpeg";
+import picture from "../../assets/Photo_Resized.jpeg";
 
 import { useAdd } from "../../hooks/useAdd";
 import { useSubtract } from "../../hooks/useSubtract";
@@ -70,7 +70,7 @@ export default function Projects() {
 
     return (
         <StyledCalc>
-            {/*<img src={picture} alt="Viren Arora's Picture" />*/}
+            <img src={picture} alt="Viren Arora's Picture" />
             <div className="calculator">
                 <h2>My calculator project! Enjoy crunching numbers!</h2>
 
