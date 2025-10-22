@@ -8,6 +8,7 @@ export const Main = styled.main`
     border-radius: calc(0.5vh);
     text-align: center;
     margin: 0 auto;
+    
 
     
     p {
@@ -38,9 +39,9 @@ export const Main = styled.main`
         
 
     @media (max-width: 760px) {
-        width: calc(30vw + 10vh);  
+        width: 90%;  
         margin: 0 auto;
-        
+        height: 100%;
     }
   }
 `;
