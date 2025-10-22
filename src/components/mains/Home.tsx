@@ -1,10 +1,10 @@
-import picture from "../../assets/picture.jpeg";
+// import picture from "../../assets/picture.jpeg";
 import { Main as StyledMain } from "../styled/Main";
 export default function Home() {
     return(
         <StyledMain>
             <title>Home|Resume</title>
-            <img src={picture} alt="Viren Arora's Picture" />
+            {/*<img src={picture} alt="Viren Arora's Picture" />*/}
             <p>Hello! I'm Viren Arora, an undergraduate at Boston University majoring in Economics and Mathematics with
                 a minor in Computer Science. This website is a digital version of my resume and showcases my education,
                 experience, skills, and interests. Thank you for visiting!

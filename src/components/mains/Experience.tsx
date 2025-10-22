@@ -1,11 +1,11 @@
-import picture from "../../assets/picture.jpeg";
+// import picture from "../../assets/picture.jpeg";
 import { Main as StyledMain } from "../styled/Main";
 export default function Experience() {
     return(
         <StyledMain>
 
             <title>Experience|Resume</title>
-            <img src={picture} alt="Viren Arora's Picture" />
+            {/*<img src={picture} alt="Viren Arora's Picture" />*/}
             <h2>Experience</h2>
             <div className="experience">
                 <section>
